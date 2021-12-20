@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
+body{
+    background-image: url(Plan/Penelo\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right top;
+}
+
+h1{
+    /* color: black; */
+    text-align: center;
+    font-size: 100px;
+    background: -webkit-linear-gradient(purple, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    margin: 0%;
+    /* border: 5px solid; */
+    /* width: 45%; */
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 50vh;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 99%;
+    /* border: black 5px solid; */
+    /* justify-content: center; */
+    }
+
+    img{
+        width: 100%;
+    }
+
+.box1{
+    display: flex;
+    min-height: 50vh;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 35%;
+    /* border: red 5px solid; */
+    justify-content: center;
+    }
+
+.box2{
+    display: flex;
+    min-height: 50vh;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 63%;
+    /* border: blueviolet 5px solid; */
+    justify-content: center;
+    text-align: justify;
+    padding: 1%;
+    font-size: 21px;
+    font-family: 'Barlow Condensed', sans-serif;
+    }

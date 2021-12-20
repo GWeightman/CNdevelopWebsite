@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
+body{
+    display: flex;
+    min-height: 50vh;
+    flex-direction:row;
+    flex-wrap: wrap;
+    background-image: url(Plan/Logo\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1366px 768px;
+    background-position: right top;
+}
+
+h1{
+    /* color: black; */
+    text-align: center;
+    font-size: 100px;
+    background: -webkit-linear-gradient(purple, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    margin: 0 0 0 7%;
+    /* border: 5px solid; */
+    width: 45%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container{
+    display: flex;
+    min-height: 50vh;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    /* border: black 5px solid; */
+    margin: 5% 0 0 5%;
+}
+
+.box{
+    margin: 10px;
+    border: purple 5px solid;
+    height: 200px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+iframe{
+    width: 40%;
+}
